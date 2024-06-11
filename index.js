@@ -24,8 +24,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'email',
-        message: 'What is your email?',
+        name: 'description',
+        message: 'Enter Description of your project',
     },
     {
         type: 'input',
@@ -45,8 +45,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'collaborators',
-        message: 'Please, list the name of your collaborators, if any',
+        name: 'contributing',
+        message: 'Provide the names of any contributors, if applicable',
     },
     {
         type: 'input',
