@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 
-const { default: Choices } = require("inquirer/lib/objects/choices");
+const fs = require("fs");
+const generateMarkdown = require("./Develop/utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -61,7 +62,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName,generateMarkdown(data))
+}
 
 // TODO: Create a function to initialize app
 function init() {}
