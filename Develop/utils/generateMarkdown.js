@@ -22,6 +22,46 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ## Table of Contents
+  *[Installation](#installation)
+  *[Usage](#usage)
+  *[Contributors](#contributing)
+  *[License](#license)
+  *[Test](#test)
+  *[Questions](#questions)
+
+
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ## Contributors
+
+  ${data.contributing}
+
+  ## License
+
+  ${data.license}
+
+  ## Test
+
+  ${data.test}
+
+  ## Questions
+
+  ${data.questions}
+
+  http://github.com/${data.github}/${data.projectname}
+
+
+
+
+
+
   
 
 `;
