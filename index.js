@@ -4,6 +4,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./Develop/utils/generateMarkdown");
 
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -72,10 +73,24 @@ function init() {
 
     inquirer.prompt(questions)
 
-    .then((answers.license) => {
+    .then((answers) => {   //here start the choices of license
         let badge = ""
-        console.log(answers.license);
-    })
+        console.log(answers.license)
+        if(answers.license === "MIT"){
+            badge ="[![License: MIT](https://img.https://shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+        }else if(answers.license === "EPL v2"){
+            badge ="[![License: MPL 2.0](https://img.https://shields.io/badge/License-EPL%202.0-pink.svg.svg)](https://https://opensource.org/licenses/EPL-2.0)"
+        }else if(answers.license === "GNU GPL v2"){
+            badge ="[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.https://opensource.org/licenses/GPL-2.0)"
+        }else
+        {
+        badge ="[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+        }
+
+        //Write command readme file
+        writeToFile("Readme.md",{...answers, badge} )
+
+    });
 }
 
 // Function call to initialize app
