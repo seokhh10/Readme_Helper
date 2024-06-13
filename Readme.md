@@ -11,7 +11,7 @@
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributors](#contributing)
+  * [Contributing](#contributing)
   * [License](#license)
   * [Test](#test)
   * [Questions](#questions)
