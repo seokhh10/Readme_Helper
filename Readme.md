@@ -25,7 +25,7 @@
 
   Open your command line, run index.js file and follow the prompts on the screen
 
-  ## Contributors
+  ## Contributing
 
   N/A
 
