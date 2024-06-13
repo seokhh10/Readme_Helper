@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Enter Description of your project',
+        message: 'Enter Description of your project:',
     },
     {
         type: 'input',
@@ -38,28 +38,28 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Please, provide any specific instructions for app usage',
+        message: 'Please, provide any specific instructions for app usage:',
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Please, choose your license',
-        Choices: ['MIT', 'EPL v2' , 'GNU GPL v2', 'Apache-2.0'],
+        message: 'Please, choose your license:',
+        choices: ['MIT', 'EPL v2' , 'GNU GPL v2', 'Apache-2.0'],
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'Provide the names of any contributors, if applicable',
+        message: 'Provide the names of any contributors, if applicable:',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'Provide the tests and instructions for how to conduct the testing?',
+        message: 'Provide the tests and instructions for how to conduct the testing:',
     },
     {
         type: 'input',
         name: 'questions',
-        message: 'Provide a list of frequently asked questions and your contact information',
+        message: 'Provide a list of frequently asked questions and your contact information:',
      },
      {
         type: "input",
@@ -82,14 +82,14 @@ function init() {
         let badge = ""
         console.log(answers.license)
         if(answers.license === "MIT"){
-            badge ="[![License: MIT](https://img.https://shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+            badge ="[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)"
         }else if(answers.license === "EPL v2"){
-            badge ="[![License: MPL 2.0](https://img.https://shields.io/badge/License-EPL%202.0-pink.svg.svg)](https://https://opensource.org/licenses/EPL-2.0)"
+            badge ="[![License: MPL 2.0](https://img.shields.io/badge/License-EPL%202.0-pink)](https://https://opensource.org/licenses/EPL-2.0)"
         }else if(answers.license === "GNU GPL v2"){
-            badge ="[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.https://opensource.org/licenses/GPL-2.0)"
+            badge ="[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue)](https://www.https://opensource.org/licenses/GPL-2.0)"
         }else
         {
-        badge ="[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+        badge ="[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue)](https://opensource.org/licenses/Apache-2.0)"
         }
 
         //Write command readme file
