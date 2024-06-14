@@ -1,6 +1,4 @@
-
-  [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
-  # Readme_Helper
+ # Readme_Helper
   ## seokhh10
 
 
@@ -55,7 +53,7 @@
 
   ## License
 
-  MIT
+  [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
   ## Questions
 
