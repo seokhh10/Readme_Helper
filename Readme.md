@@ -16,10 +16,27 @@
   * [Test](#test)
   * [Questions](#questions)
 
+  ## Features
+
+- **User Prompts**: Collects user input through the command line using the Inquirer package.
+- **Dynamic README Creation**: Generates a README file based on the provided inputs.
+- **Template-Based**: Ensures consistent and professional formatting for all README files.
+- **Customization**: Users can tailor the content to fit the specific needs of their project.
+
 
   ## Installation
 
-  To use the Professional README Generator, you need to have Node.js installed. Follow these steps to install and set up the project: 1. **Clone the Repository** 2. **Install Dependencies**  Use npm to install the necessary packages, including Inquirer. -npm install Ensure you install the specific version of Inquirer: -npm i inquirer@8.2.4
+  To use the Professional README Generator, you need to have Node.js installed. Follow these steps to install and set up the project:
+
+1. **Clone the Repository**:
+   git clone:  git@github.com:seokhh10/Readme_Helper.git
+   cd Readme_Helper
+
+2. **Install Dependencies**:
+   Use npm to install the necessary packages, including Inquirer.
+   -npm install
+   Ensure you install the specific version of Inquirer:
+   -npm i inquirer@8.2.4
 
   ## Usage
 
@@ -35,7 +52,15 @@
 
   ## Test
 
-  Follow the instructions for app usage.
+ 1. **Run the Application**:
+ -node index.js
+
+ 2. **Answer the Prompts**:
+ Follow the on-screen prompts to provide information about your project. The questions will cover various aspects needed for a comprehensive README.
+
+ 3. **View the Generated README:**
+ Once you have answered all the questions, the application will generate a README.md file in the current directory with the provided details.
+
 
   ## Questions
 
