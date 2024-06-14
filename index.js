@@ -32,6 +32,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'features',
+        message: 'Provide the features of your Readme file:',
+    },
+    {
+        type: 'input',
         name: 'installation',
         message: 'Please, Enter the installation instructions for your project:',
     },
@@ -50,11 +55,6 @@ const questions = [
         type: 'input',
         name: 'contributing',
         message: 'Provide the names of any contributors, if applicable:',
-    },
-    {
-        type: 'input',
-        name: 'test',
-        message: 'Provide the tests and instructions for how to conduct the testing:',
     },
     {
         type: 'input',

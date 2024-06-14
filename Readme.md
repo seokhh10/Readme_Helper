@@ -33,26 +33,14 @@
   - cd Readme_Helper
 
 2. **Install Dependencies**
-   Use npm to install the necessary packages, including Inquirer.
-   -npm install
-   Ensure you install the specific version of Inquirer
-   -npm i inquirer@8.2.4
+  - Use npm to install the necessary packages, including Inquirer.
+   -npm install-
+  - Ensure you install the specific version of Inquirer
+   -npm i inquirer@8.2.4-
 
   ## Usage
 
-  1.Run the Application: -node index.js 2.Answer the Prompts: Follow the on-screen prompts to provide information about your project. The questions will cover various aspects needed for a comprehensive README. 3.View the Generated README: Once you have answered all the questions, the application will generate a README.md file in the current directory with the provided details.
-
-  ## Contributing
-
-  N/A
-
-  ## License
-
-  MIT
-
-  ## Test
-
- 1. **Run the Application**:
+  1. **Run the Application**:
  -node index.js
 
  2. **Answer the Prompts**:
@@ -61,6 +49,13 @@
  3. **View the Generated README:**
  Once you have answered all the questions, the application will generate a README.md file in the current directory with the provided details.
 
+  ## Contributing
+
+  N/A
+
+  ## License
+
+  MIT
 
   ## Questions
 
