@@ -28,14 +28,14 @@
 
   To use the Professional README Generator, you need to have Node.js installed. Follow these steps to install and set up the project:
 
-1. **Clone the Repository**:
-   git clone:  git@github.com:seokhh10/Readme_Helper.git
+1. **Clone the Repository**
+   git clone  git@github.com:seokhh10/Readme_Helper.git
    cd Readme_Helper
 
-2. **Install Dependencies**:
+2. **Install Dependencies**
    Use npm to install the necessary packages, including Inquirer.
    -npm install
-   Ensure you install the specific version of Inquirer:
+   Ensure you install the specific version of Inquirer
    -npm i inquirer@8.2.4
 
   ## Usage
