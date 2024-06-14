@@ -10,10 +10,10 @@
 
   ## Table of Contents
   * [Installation](#installation)
+  * [Features](#features)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [License](#license)
-  * [Test](#test)
   * [Questions](#questions)
 
   ## Features
